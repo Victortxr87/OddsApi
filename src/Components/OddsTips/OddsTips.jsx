@@ -87,7 +87,7 @@ const obterSugestao = jogo => {
 
 return (
   <div className="app-container">
-    <h1>Campeonato Brasileiro - Jogos da Rodada Atual</h1>
+    <h1>Campeonato Brasileiros - Jogos da Rodada Atual</h1>
     <ul className="games-list">
       {Object.values(agruparPorJogo).map(jogo => (
         <li key={`${jogo.away_team}-${jogo.home_team}`} className="game-item">

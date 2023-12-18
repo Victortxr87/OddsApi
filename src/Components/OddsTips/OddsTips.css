@@ -1,0 +1,28 @@
+/* App.css */
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.games-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.game-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.game-item strong {
+  font-weight: bold;
+}
+
+.game-item p {
+  margin: 5px 0;
+}
